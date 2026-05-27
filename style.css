@@ -86,3 +86,15 @@ canvas {
 @keyframes spin {
     to { transform: rotate(360deg); }
 }
+
+footer {
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.18);
+    z-index: 2;
+    pointer-events: none;
+}
