@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER // Galería de Arte Digital Interactivo</title>
+    <meta name="description" content="Una instalación interactiva en WebGL utilizando Three.js y shaders personalizados de distorsión fluida en tiempo real.">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas para WebGL -->
+    <canvas id="webgl"></canvas>
+
+    <!-- Indicador de carga -->
+    <div class="loader-overlay" id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">INICIALIZANDO EXPOSICIÓN DIGITAL...</div>
+        </div>
+    </div>
+
+    <!-- Three.js Library via CDNJS (Estable, rápida y compatible con todos los navegadores) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Script Principal (Cargado como script regular para máxima compatibilidad) -->
+    <script src="app.js"></script>
+</body>
+</html>
